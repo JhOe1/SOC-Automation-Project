@@ -175,6 +175,17 @@ I also added the Wazuh server to the firewall
 
 <img width="1680" alt="Screenshot 2024-11-18 at 19 31 54" src="https://github.com/user-attachments/assets/7d7a7664-1177-4999-921f-95029c2a211b">
 
+
+
+Next, I SSH into the server using my terminal and updated all the Ubuntu
+
+<img width="807" alt="Screenshot 2024-11-18 at 22 23 52" src="https://github.com/user-attachments/assets/2863556e-fd7b-49c1-b9f9-2fed723378a5">
+
+
+After that, I install Wazuh on the Ubuntu Server
+<img width="934" alt="Screenshot 2024-11-18 at 22 35 26" src="https://github.com/user-attachments/assets/b91dfbf7-34ea-40bd-a0c1-35ce4ab3bb50">
+
+
 ## Conclusion  
 
 This SOC automation project showcases the integration of powerful open-source tools to create a more efficient and scalable security environment. By automating workflows and incident response, the SOC can better handle modern cyber threats while reducing manual overhead.
