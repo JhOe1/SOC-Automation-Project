@@ -99,8 +99,43 @@ Shuffle forwards the response action to the Wazuh Manager.
 The Wazuh Manager executes the response action via the Wazuh Agents on the affected Windows clients.
 
 
+### Setting Up the Environment
 
+To begin the SOC automation project, the first step was to set up a virtualized Windows environment. Below are the steps taken:
 
+---
+
+#### 1. Installing VirtualBox  
+VirtualBox was chosen as the virtualization platform due to its flexibility and ease of use.  
+Steps:  
+1. Downloaded the latest version of VirtualBox from the [official website](https://www.virtualbox.org/).  
+2. Installed VirtualBox on the host machine by following the installation wizard.  
+
+---
+
+#### 2. Downloading the Windows 10 ISO  
+To create a virtual machine, a Windows 10 ISO file was required.  
+Steps:  
+1. Downloaded the Windows 10 ISO file directly from the [Microsoft website](https://www.microsoft.com/en-us/software-download/windows10ISO).  
+2. Verified the ISO file checksum to ensure integrity and authenticity.  
+
+---
+
+#### 3. Installing the Windows 10 Operating System  
+Once VirtualBox and the Windows 10 ISO were ready, the next step was to install the operating system.  
+Steps:  
+1. Created a new virtual machine in VirtualBox and configured the following:  
+   - **Name**: Win10
+   - **Operating System Type**: Microsoft Windows  
+   - **Version**: Windows 10 (64-bit)  
+   - **Memory Allocation**: 4 GB (or adjusted based on system capacity)  
+   - **Storage**: 50 GB dynamically allocated virtual hard disk.  
+2. Mounted the downloaded Windows 10 ISO as the virtual machine's bootable media.  
+3. Started the virtual machine and followed the Windows 10 installation wizard to complete the setup.
+
+---
+
+<img width="1009" alt="Screenshot 2024-11-18 at 10 54 34" src="https://github.com/user-attachments/assets/89dd10e4-5ec1-479c-992d-93182fea2e03">
 
 
 
