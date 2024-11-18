@@ -46,6 +46,64 @@ Key Features:
 Below is a diagrammatic representation of the intended setup:
 <img width="1000" alt="Screenshot 2024-11-18 at 07 38 30" src="https://github.com/user-attachments/assets/85b663b8-bb2d-442e-afd4-4c95023e5699">
 
+
+
+## Workflow
+
+1. Event Collection
+Wazuh Agents (installed on endpoints) continuously monitor systems for events.
+Wazuh Agents send collected events to the Wazuh Manager.
+
+<br>
+<br>
+
+2. Event Processing
+The Wazuh Manager processes the received events.
+If an event matches predefined rules or thresholds, the Wazuh Manager generates an alert.
+
+<br>
+<br>
+
+3. Alert Forwarding
+The Wazuh Manager forwards the alert to Shuffle for further processing.
+
+<br>
+<br>
+
+4. Alert Enrichment
+Shuffle receives the alert and performs enrichment, such as querying external threat intelligence sources to enrich Indicators of Compromise (IOCs).
+
+<br>
+<br>
+
+5. Incident Management
+Shuffle sends enriched alerts to TheHive, where they are categorized and managed as part of incident response workflows.
+
+<br>
+<br>
+
+6. Analyst Notification
+Shuffle sends a notification email to the Security Analyst, providing details of the alert.
+<br>
+<br>
+
+7. Analyst Review and Response
+The Security Analyst reviews the alert details and determines the appropriate response action.
+The Security Analyst sends the response action to Shuffle.
+
+<br>
+<br>
+
+9. Response Execution
+Shuffle forwards the response action to the Wazuh Manager.
+The Wazuh Manager executes the response action via the Wazuh Agents on the affected Windows clients.
+
+
+
+
+
+
+
 ## Conclusion  
 
 This SOC automation project showcases the integration of powerful open-source tools to create a more efficient and scalable security environment. By automating workflows and incident response, the SOC can better handle modern cyber threats while reducing manual overhead.
