@@ -171,6 +171,10 @@ To secure the Ubuntu  virtual machine and limit access to trusted sources, new *
 <br>
 <br>
 
+I also added the Wazuh server to the firewall 
+
+<img width="1680" alt="Screenshot 2024-11-18 at 19 31 54" src="https://github.com/user-attachments/assets/7d7a7664-1177-4999-921f-95029c2a211b">
+
 ## Conclusion  
 
 This SOC automation project showcases the integration of powerful open-source tools to create a more efficient and scalable security environment. By automating workflows and incident response, the SOC can better handle modern cyber threats while reducing manual overhead.
