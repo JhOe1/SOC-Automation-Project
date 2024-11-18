@@ -186,6 +186,10 @@ After that, I install Wazuh on the Ubuntu Server
 <img width="934" alt="Screenshot 2024-11-18 at 22 35 26" src="https://github.com/user-attachments/assets/b91dfbf7-34ea-40bd-a0c1-35ce4ab3bb50">
 
 
+<br>
+<br>
+<img width="1680" alt="Screenshot 2024-11-18 at 22 47 56" src="https://github.com/user-attachments/assets/cb60104c-f596-45e7-8da0-ac62794fa852">
+
 ## Conclusion  
 
 This SOC automation project showcases the integration of powerful open-source tools to create a more efficient and scalable security environment. By automating workflows and incident response, the SOC can better handle modern cyber threats while reducing manual overhead.
