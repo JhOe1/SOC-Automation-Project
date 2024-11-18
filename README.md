@@ -160,7 +160,10 @@ Size
 <br>
 <br>
 
-Next I had to create  Firwall new Inbounds Firewall Rules  
+### Configuring Firewall Rules on the Ubuntu server
+
+To secure the Ubuntu  virtual machine and limit access to trusted sources, new **Inbound Firewall Rules** were created to allow connections only from a specific IP address. This ensures that only authorized devices can connect to the server.
+ 
 
 <br>
 <br>
