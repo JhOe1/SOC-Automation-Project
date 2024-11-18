@@ -137,10 +137,31 @@ Steps:
 
 <img width="1009" alt="Screenshot 2024-11-18 at 10 54 34" src="https://github.com/user-attachments/assets/89dd10e4-5ec1-479c-992d-93182fea2e03">
 
-Next, I downloaded and installed sysmon on the windows 10 using the Olaf Hartong configuration file.
+#### Next, I downloaded and installed sysmon on the windows 10 using the Olaf Hartong configuration file.
 
 <img width="1023" alt="Screenshot 2024-11-18 at 13 24 13" src="https://github.com/user-attachments/assets/98822163-2fa7-4c41-987b-a6ee4f631064">
 
+#### After that I deploy the remaining virtual servers in the cloud using Digital Ocean
+
+<img width="1680" alt="Screenshot 2024-11-18 at 18 47 37" src="https://github.com/user-attachments/assets/cf19ea34-2626-4eae-ac9d-928aa21b1085">
+i deployed a  Ubuntu 22.04 (LTS) x64
+Size
+2 vCPUs
+8GB / 160GB Disk
+
+
+
+
+<br>
+<br>
+
+Next I had to create  Firwall new Inbounds Firewall Rules  
+
+<br>
+<br>
+<img width="1680" alt="Screenshot 2024-11-18 at 18 40 18" src="https://github.com/user-attachments/assets/8da610aa-96cd-4789-a07b-c7d1faefd667">
+<br>
+<br>
 
 ## Conclusion  
 
