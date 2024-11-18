@@ -137,6 +137,9 @@ Steps:
 
 <img width="1009" alt="Screenshot 2024-11-18 at 10 54 34" src="https://github.com/user-attachments/assets/89dd10e4-5ec1-479c-992d-93182fea2e03">
 
+Next, I downloaded and installed sysmon on the windows 10 using the Olaf Hartong configuration file.
+
+<img width="1023" alt="Screenshot 2024-11-18 at 13 24 13" src="https://github.com/user-attachments/assets/98822163-2fa7-4c41-987b-a6ee4f631064">
 
 
 ## Conclusion  
