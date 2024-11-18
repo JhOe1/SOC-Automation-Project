@@ -13,6 +13,9 @@ The goal of this project is to enhance SOC efficiency by integrating and automat
 ## Tools Used
 
 ### Wazuh  
+
+<img width="1680" alt="Screenshot 2024-11-18 at 18 58 57" src="https://github.com/user-attachments/assets/9be455fe-535b-4407-b3f2-cc2a69371be0">
+
 **Wazuh** is a free, open-source security platform that unifies Extended Detection and Response (XDR) and Security Information and Event Management (SIEM) capabilities.  
 Key Features:  
 - **Threat Detection**: Identifies potential security threats across systems.  
@@ -24,6 +27,7 @@ Key Features:
 ---
 
 ### Shuffle  
+<img width="1680" alt="Screenshot 2024-11-18 at 19 03 49" src="https://github.com/user-attachments/assets/f49a1e5d-5a96-40b1-b75a-6ea9a2579f81">
 **Shuffle Automation** is an open-source platform designed to automate security processes and workflows.  
 Key Features:  
 - Allows the definition of automated workflows to improve infrastructure security.  
@@ -33,6 +37,7 @@ Key Features:
 ---
 
 ### TheHive  
+<img width="1680" alt="Screenshot 2024-11-18 at 19 02 28" src="https://github.com/user-attachments/assets/e200e5c0-e50f-4992-9647-7c50fa0607f1">
 **TheHive** is a free, open-source Security Incident Response Platform (SIRP) used for investigating and managing security incidents.  
 Key Features:  
 - Enables analysts to add observables to cases and use tags for categorization.  
