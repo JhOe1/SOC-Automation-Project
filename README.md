@@ -207,6 +207,18 @@ I also created another virtual server for the Thehive and added firewall rules
 
 
 
+Next, I SSH into thehive virtual machine to install all the Prerequisites (Java, Cassandra and Elasticsearch) to get thehive up and running 
+
+## Configurations 
+After editing various configuration files in Elasticsearch, Cassandra and Thehive. I was finally able to get thehive up and running.
+<img width="1680" alt="Screenshot 2024-11-20 at 10 05 07" src="https://github.com/user-attachments/assets/f0d29a45-faf3-4d1a-bd3e-35039934fce8">
+<br><br>
+<br><br><img width="1680" alt="Screenshot 2024-11-20 at 09 52 05" src="https://github.com/user-attachments/assets/8ad3ab76-437f-4ff5-97cb-2c74335cb994">
+
+
+
+
+
 
 ## Conclusion  
 
