@@ -203,6 +203,10 @@ I also created another virtual server for the Thehive and added firewall rules
 <img width="1675" alt="Screenshot 2024-11-20 at 08 04 15" src="https://github.com/user-attachments/assets/fdc5ac90-c944-42be-bdb4-f9b3046a9e92">
 
 
+<img width="1626" alt="Screenshot 2024-11-20 at 08 13 51" src="https://github.com/user-attachments/assets/ee980b11-5aef-4bd7-b8ed-d6a1aef75716">
+
+
+
 
 ## Conclusion  
 
