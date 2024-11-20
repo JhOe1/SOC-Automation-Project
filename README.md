@@ -218,6 +218,16 @@ After editing various configuration files in Elasticsearch, Cassandra and Thehiv
 
 
 
+## Installing the Wazuh agent on the Windows 10 virtual machine  
+
+<img width="1680" alt="Screenshot 2024-11-20 at 10 09 06" src="https://github.com/user-attachments/assets/493e2663-4030-47c6-aed3-be0abf5fbe42">
+
+<img width="1680" alt="Screenshot 2024-11-20 at 10 21 40" src="https://github.com/user-attachments/assets/5dbf574a-0864-4c1e-b1e7-d6c069c6dd8d">
+
+
+
+
+
 
 
 ## Conclusion  
