@@ -194,12 +194,12 @@ After that, I install Wazuh on the Ubuntu Server
 
 
 
-
+<br>
+<br><br>
+<br><br>
+<br>
 
 I also created another virtual server for the Thehive and added firewall rules
-
-<br>
-<br>
 <img width="1675" alt="Screenshot 2024-11-20 at 08 04 15" src="https://github.com/user-attachments/assets/fdc5ac90-c944-42be-bdb4-f9b3046a9e92">
 
 
