@@ -28,6 +28,7 @@ Key Features:
 
 ### Shuffle  
 <img width="1680" alt="Screenshot 2024-11-18 at 19 03 49" src="https://github.com/user-attachments/assets/f49a1e5d-5a96-40b1-b75a-6ea9a2579f81">
+
 **Shuffle Automation** is an open-source platform designed to automate security processes and workflows.  
 Key Features:  
 - Allows the definition of automated workflows to improve infrastructure security.  
@@ -38,6 +39,7 @@ Key Features:
 
 ### TheHive  
 <img width="1680" alt="Screenshot 2024-11-18 at 19 02 28" src="https://github.com/user-attachments/assets/e200e5c0-e50f-4992-9647-7c50fa0607f1">
+
 **TheHive** is a free, open-source Security Incident Response Platform (SIRP) used for investigating and managing security incidents.  
 Key Features:  
 - Enables analysts to add observables to cases and use tags for categorization.  
