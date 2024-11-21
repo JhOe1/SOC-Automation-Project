@@ -228,9 +228,14 @@ After editing various configuration files in Elasticsearch, Cassandra and Thehiv
 
 
 
+## Next i edited the ossec.conf file in the winwods 10 where the wazuh agent was installed to enable me INGEST SYSMON logs from windows 10 to wazuh 
+
+<img width="1037" alt="Screenshot 2024-11-21 at 19 13 19" src="https://github.com/user-attachments/assets/c4dc8ec0-edca-4270-9211-60eac568d709">
 
 
-## Conclusion  
+
+## Conclusion 
+
 
 This SOC automation project showcases the integration of powerful open-source tools to create a more efficient and scalable security environment. By automating workflows and incident response, the SOC can better handle modern cyber threats while reducing manual overhead.
 
