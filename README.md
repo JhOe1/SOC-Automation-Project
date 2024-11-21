@@ -228,9 +228,12 @@ After editing various configuration files in Elasticsearch, Cassandra and Thehiv
 
 
 
-## Next i edited the ossec.conf file in the winwods 10 where the wazuh agent was installed to enable me INGEST SYSMON logs from windows 10 to wazuh 
+## Next I edited the ossec.conf file in Windows 10 where the wazuh agent was installed to enable me to INGEST SYSMON logs from Windows 10 to wazuh 
 
 <img width="1037" alt="Screenshot 2024-11-21 at 19 13 19" src="https://github.com/user-attachments/assets/c4dc8ec0-edca-4270-9211-60eac568d709">
+
+
+
 
 
 
