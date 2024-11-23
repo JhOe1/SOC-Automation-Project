@@ -234,19 +234,23 @@ After editing various configuration files in Elasticsearch, Cassandra and Thehiv
 
 
 
-
-
+<br><br>
+<br><br>
 ## Next I will try to detect MIMIKATZ  usage on Windows 10 using WAZUH, I downloaded mimikatz on the Win10 machine and had to exclude the download folder on the Windows Security cause by default windows security would not allow me to download a known malicious tool. 
 
 
-<br><br>
-<br><br>
+
 <img width="1021" alt="Screenshot 2024-11-23 at 22 19 53" src="https://github.com/user-attachments/assets/3ced3113-ca76-45e7-b89c-99e89e7ab366">
 <img width="1021" alt="Screenshot 2024-11-23 at 22 20 48" src="https://github.com/user-attachments/assets/bc87d863-e02e-402c-8eaf-091b5ef8c755">
 <img width="1023" alt="Screenshot 2024-11-23 at 22 22 06" src="https://github.com/user-attachments/assets/80b58d34-772e-431d-8bae-9303cbab6513">
+<br><br>
+<br><br>
 
+## By default Wazuh doesn't log everything so I had to make some changes to Wazuh manager's "ossec.conf" file so i logs everthing which will be saved in "archives.json".. On opeing the "archives.json" using the grep command i found the mimikatz process (after several hours of troubleshooting and restarting the wazuh-manager.service) 
 
-
+<img width="1680" alt="Screenshot 2024-11-23 at 22 34 56" src="https://github.com/user-attachments/assets/1039d6ce-0950-4819-8266-7b56fc92f554">
+<img width="1676" alt="Screenshot 2024-11-23 at 22 40 00" src="https://github.com/user-attachments/assets/3d8c8972-d754-4bbb-aa46-7a0a77db3a3e">
+<img width="1680" alt="Screenshot 2024-11-23 at 22 43 14" src="https://github.com/user-attachments/assets/98dab445-7eb3-4b26-94ab-cf4b5bee2000">
 
 ## Conclusion 
 
