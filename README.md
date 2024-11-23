@@ -236,6 +236,17 @@ After editing various configuration files in Elasticsearch, Cassandra and Thehiv
 
 
 
+## Next I will try to detect MIMIKATZ  usage on Windows 10 using WAZUH, I downloaded mimikatz on the Win10 machine and had to exclude the download folder on the Windows Security cause by default windows security would not allow me to download a known malicious tool. 
+
+
+<br><br>
+<br><br>
+<img width="1021" alt="Screenshot 2024-11-23 at 22 19 53" src="https://github.com/user-attachments/assets/3ced3113-ca76-45e7-b89c-99e89e7ab366">
+<img width="1021" alt="Screenshot 2024-11-23 at 22 20 48" src="https://github.com/user-attachments/assets/bc87d863-e02e-402c-8eaf-091b5ef8c755">
+<img width="1023" alt="Screenshot 2024-11-23 at 22 22 06" src="https://github.com/user-attachments/assets/80b58d34-772e-431d-8bae-9303cbab6513">
+
+
+
 
 ## Conclusion 
 
