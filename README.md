@@ -246,11 +246,26 @@ After editing various configuration files in Elasticsearch, Cassandra and Thehiv
 <br><br>
 <br><br>
 
-## By default Wazuh doesn't log everything so I had to make some changes to Wazuh manager's "ossec.conf" file so i logs everthing which will be saved in "archives.json".. On opeing the "archives.json" using the grep command i found the mimikatz process (after several hours of troubleshooting and restarting the wazuh-manager.service) 
+## By default Wazuh doesn't log everything so I had to make some changes to Wazuh manager's "ossec.conf" file so it logs everthing which will be saved in "archives.json".. On opeing the "archives.json" using the grep command i found the mimikatz process (after several hours of troubleshooting and restarting the wazuh-manager.service) 
 
 <img width="1680" alt="Screenshot 2024-11-23 at 22 34 56" src="https://github.com/user-attachments/assets/1039d6ce-0950-4819-8266-7b56fc92f554">
 <img width="1676" alt="Screenshot 2024-11-23 at 22 40 00" src="https://github.com/user-attachments/assets/3d8c8972-d754-4bbb-aa46-7a0a77db3a3e">
 <img width="1680" alt="Screenshot 2024-11-23 at 22 43 14" src="https://github.com/user-attachments/assets/98dab445-7eb3-4b26-94ab-cf4b5bee2000">
+
+
+
+## Next i will be creating an alert in wazuh using the "data.win.eventdata.originalFileName" (The reason I will be using this field name is that even if the file name is changed to "mimicow" based on the file hash value the alert will still be triggered) to enable me detect mimikatz usage
+
+<img width="1680" alt="Screenshot 2024-11-23 at 23 10 33" src="https://github.com/user-attachments/assets/26d9ad35-7a31-4015-bfd7-d87d7ac4b2d5">
+
+
+
+## To test the rule I just created I changed "Mimikatz" to "Mimicow" and it was still detected
+<img width="1680" alt="Screenshot 2024-11-23 at 23 19 54" src="https://github.com/user-attachments/assets/4fd5c660-6fd5-4114-8844-e77c7836604c">
+
+## Next I will be integrating Shuffle with Wazuh by editing the wazuh manager "ossec.conf" file.
+
+## Conclusion 
 
 ## Conclusion 
 
